@@ -18,7 +18,8 @@ html {
 }
 
 .logo img {
-    width: 26%;
+    height: 60%;
+    width: 25%;
     border: 3px solid white;
     border-radius: 50px;
     margin: 5px;
@@ -117,7 +118,7 @@ html {
 }
 
 .text-small {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .btn {
@@ -163,6 +164,7 @@ html {
 
 .paras {
     padding: 18px 14px;
+    margin: 2px 5px;
 }
 
 .sectionSubTag {
@@ -171,11 +173,15 @@ html {
 }
 
 .thumbnail img {
-    width: 356px;
+    width: 300px;
     border: 2px solid black;
     border-radius: 26px;
     margin-top: 19px;
-    height: 350px;
+    height: 300px;
+    margin: 19px 8px 5px 8px;
+    object-fit: contain;
+    padding: 5px;
+    box-shadow: 4px 4px 7px 2px rgb(121, 131, 126);
 }
 
 .contact {
